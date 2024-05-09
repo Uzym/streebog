@@ -25,7 +25,7 @@
 #include "gost3411-2012-ref.h"
 #endif
 
-ALIGN(16) union uint512_u
+extern ALIGN(16) union uint512_u
 {
     unsigned long long QWORD[8];
 } uint512_u;
